@@ -2,8 +2,6 @@
 
 Utilizando informações disponibilizadas pela URBS acerca da frota ônibus de Curitiba e seus trajetos, este projeto visa encontrar o menor caminho entre duas paradas de ônibus informadas pelo usuário através de um algoritmo de busca em largura.
 
-Este projeto visa, através de um algoritmo de busca em largura, encontrar o menor caminho entre um dois pontos de ônibus, um de origem e um destino, informados pelo usuários.
-
 ### Implementações futuras
 - Validação dos dados inseridos
 - Validação de limites
