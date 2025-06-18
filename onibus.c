@@ -2,11 +2,12 @@
 #include <stdlib.h>
 #include <string.h>
 #include <conio.h>
+#include <unistd.h>
 
 //  Estrutura das paradas de Ônibus - Grafo
 typedef struct Ponto{
     int destino;
-    struct Ponto *proximo;
+    struct Ponto *proximo;  // Próxima conexão na lista
 }Ponto;
 
 //  Constantes
@@ -77,6 +78,7 @@ int main(){
             case 3:
                 liberarMemoria();
                 printf("Memoria liberada com sucesso!\nEncerrando...");
+                sleep(5);
                 break;
             default:
                 printf("Opcao invalida, tente novamente...");
